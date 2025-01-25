@@ -23,7 +23,7 @@ export default function Add() {
     <input type="text" className="form-control" {...register("userName")} id="exampleInput" />
   </div>
   <div className="mb-3">
-    <label htmlFor="exampleInputPassword1" className="form-label">UserName</label>
+    <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
     <input type="text" className="form-control" {...register("password")} id="exampleInputPassword1" />
   </div>
   <div className="mb-3">
