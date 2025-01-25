@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+  
+  }
+  :root{
+    --primary:#A259FF;
+    --background:#2b2b2b;
+    --background2:#3b3b3b;
+    --lg-radius:8px ;
+    --md-radius: 6px ;
+    --sm-radius: 4px ; 
+  }
+  .body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--background2);
+  }

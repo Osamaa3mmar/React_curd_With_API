@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+  
+  }
+  :root{
+    --primary:#A259FF;
+    --background:#2b2b2b;
+    --background2:#3b3b3b;
+    --lg-radius:8px ;
+    --md-radius: 6px ;
+    --sm-radius: 4px ; 
+  }
+  .body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--background2);
+  }
+
+
+  .card{
+    padding: 1rem;
+    border-radius: var(--lg-radius);
+    margin-bottom: 1rem;
+    border: 2px solid var(--primary);
+    background-color: var(--background);
+    color:white;
+    filter: blur(10px);
+    scale: 0.2;
+    transform: rotate(30deg);
+    animation-name: identifier;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    transition: 600ms;
+  }
+
+
+
+  @keyframes identifier {
+    0%{
+
+    }
+    40%{
+        filter: blur(0px);
+    scale: 1.1;
+    transform: rotate(-10deg);
+    }
+    100%{
+        filter: blur(0px);
+        scale:1;
+        transform: rotate(0deg);
+    }
+  }
+  .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .btn{
+    color: white !important;
+    background-color: var(--background2);
+    border: none;
+    padding: 4px 10px;
+    border-radius: var(--lg-radius);
+  }
+
+  .btnInfo{
+    border: 2px solid skyblue;
+    text-decoration: none;
+  }
+
+  .btnInfo:focus{
+   outline: 4px solid rgba(135, 207, 235, 0.3) !important;
+  }
+
+  .btnDanger{
+    border: 2px solid rgb(219, 2, 2);
+  }
+
+  .btnDanger:focus{
+   outline: 4px solid rgba(219, 2, 2, 0.3) !important;
+  }
